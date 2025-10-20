@@ -220,16 +220,16 @@
           <div class="w-full p-4 border border-[var(--border-color)] rounded-md hover-effect">
             <h2 class="font-game text-lg text-[var(--secondary-color)] mb-2">STATS</h2>
             <ul class="space-y-1 text-sm">
-              <li><strong>Umur:</strong>21</li>
+              <li><strong>Age:</strong>21</li>
               <li><strong>Status:</strong>Busy</li>
-              <li><strong>Wilayah:</strong>Id</li>
+              <li><strong>Region:</strong>Id</li>
             </ul>
           </div>
         </div>
 
         <div class="md:col-span-2 space-y-6">
           <div class="p-4 border border-[var(--border-color)] rounded-md hover-effect">
-            <h2 class="font-bold text-lg text-[var(--secondary-color)] mb-3">MINAT</h2>
+            <h2 class="font-bold text-lg text-[var(--secondary-color)] mb-3">INTEREST</h2>
             <div class="flex flex-wrap gap-2">
               <span class="tag py-1 px-3 rounded-full text-sm">Game</span>
               <span class="tag py-1 px-3 rounded-full text-sm">Designer</span>
@@ -281,7 +281,7 @@
                 <div>
                   <div class="flex justify-between">
                     <span>JavaScript</span>
-                    <span>15%</span>
+                    <span>50%</span>
                   </div>
                   <div class="skill-bar bg-[var(--accent-color)] bg-opacity-30">
                     <div class="progress-bar h-full rounded" style="width: 15%"></div>
@@ -291,7 +291,7 @@
                 <div>
                   <div class="flex justify-between">
                     <span>Designer</span>
-                    <span>25%</span>
+                    <span>50%</span>
                   </div>
                   <div class="skill-bar bg-[var(--accent-color)] bg-opacity-30">
                     <div class="progress-bar h-full rounded" style="width: 25%"></div>
@@ -301,7 +301,7 @@
                 <div>
                   <div class="flex justify-between">
                     <span>Game Dev</span>
-                    <span>10%</span>
+                    <span>100%</span>
                   </div>
                   <div class="skill-bar bg-[var(--accent-color)] bg-opacity-30">
                     <div class="progress-bar h-full rounded" style="width: 10%"></div>
@@ -341,7 +341,7 @@
 
   <!-- Music Indicator -->
   <div id="music-indicator" class="music-indicator">
-    <span id="music-status">Nhạc đang phát...</span>
+    <span id="music-status">Step Back!</span>
   </div>
 
   <audio id="background-music"></audio>
@@ -350,7 +350,7 @@
     // Clock function
     function updateClock() {
       const now = new Date();
-      const timeString = now.toLocaleTimeString("vi-VN", {
+      const timeString = now.toLocaleTimeString("ind-ID", {
         hour: "2-digit",
         minute: "2-digit",
       });
