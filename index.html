@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -368,7 +368,7 @@
     const musicStatus = document.getElementById("music-status");
     
     // Set the music URL (Google Drive direct link)
-    const musicUrl = "10 ngàn năm.mp3";
+    const musicUrl = "StepBack.mp3";
     backgroundMusic.src = musicUrl;
     backgroundMusic.volume = 0.7;
     
@@ -378,10 +378,10 @@
     musicControlButton.addEventListener("click", () => {
       if (isMusicPlaying) {
         backgroundMusic.pause();
-        musicStatus.textContent = "Nhạc đã tạm dừng";
+        musicStatus.textContent = "Step Back!";
       } else {
         backgroundMusic.play();
-        musicStatus.textContent = "Nhạc đang phát...";
+        musicStatus.textContent = "Step Back!";
       }
       
       // Show indicator
